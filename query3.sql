@@ -1,0 +1,31 @@
+-- 3. There is a recurring request from the customers especially create invoices for them. So we need to prodive the necessary information.
+-- Write a query which shows all the necessary data for an invoice.
+-- ShipName:
+-- ShipAddress:
+-- ShipCity:
+-- ShipRegion: 
+-- ShipPostalCode:
+-- ShipCountry:
+-- CustomerID:
+-- CustomerName: the name of the customer's company
+-- Address:
+-- City:
+-- Region:
+-- PostalCode:
+-- Country:
+-- Salesperson: the fullname of the employee separated by space
+-- OrderID:
+-- OrderDate:
+-- RequiredDate:
+-- ShippedDate: 
+-- ShipperName:
+-- ProductID:
+-- ProductName: 
+-- UnitPrice:
+-- Quantity:
+-- Discount: 
+-- Total: see previous query (more detailed orders)
+-- Freight:
+-- The list should be sorted by CustomerID, OrderDate and ProductID.
+
+
