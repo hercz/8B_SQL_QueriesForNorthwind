@@ -2,6 +2,7 @@
 -- All product is expensive which price is higher than the average.
 -- ProductName
 -- UnitPrice
+-- It should be sorted by UnitPrice.
 
 SELECT 
     ProductName, UnitPrice
@@ -11,4 +12,5 @@ WHERE
     UnitPrice >= (SELECT 
             AVG(UnitPrice)
         FROM
-            Products);
+            Products)
+ORDER BY UnitPrice;

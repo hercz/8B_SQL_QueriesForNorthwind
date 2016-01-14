@@ -14,17 +14,5 @@ UNION SELECT
     City, CompanyName, ContactName, 'Supplier' AS Relationship
 FROM
     Suppliers
-ORDER BY City, ContactName;
-
--- SELECT 
---     City, CompanyName, ContactName, 'Customer' AS Relationship
--- FROM
---     Customers 
--- UNION ALL SELECT 
---     City, CompanyName, ContactName, 'Supplier' AS Relationship
--- FROM
---     Suppliers
--- ORDER BY City, ContactName;
-
-
+ORDER BY City , ContactName;
 

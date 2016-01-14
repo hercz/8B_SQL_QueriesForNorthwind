@@ -4,7 +4,6 @@
 -- OrderTotal: sum of orderdetails' total
 -- It should be sorted by OrderID.
 
-
 SELECT 
     OrderID, SUM(UnitPrice) AS Total
 FROM
