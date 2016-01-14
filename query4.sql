@@ -6,7 +6,7 @@
 
 
 SELECT 
-    OrderID, SUM(UnitPrice) AS OrderTotal
+    OrderID, SUM(UnitPrice) AS Total
 FROM
-    orderdetails
-GROUP BY OrderID;
+    OrderDetails
+ORDER BY OrderID;
