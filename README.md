@@ -1,1 +1,3 @@
-# Queries_for_Northwind-8B-
+# 8B_SQL_QueriesForNorthwind
+
+[Codecool](https://codecool.hu/) school project.
